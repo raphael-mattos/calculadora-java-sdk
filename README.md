@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Simple calculator API hosted on APIMATIC
+Simple calculator API hosted on APIMATIC versão 1.0.1
 
 ## Building
 
@@ -97,14 +97,14 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | `environment` | `Environment` | The API environment. <br> **Default: `Environment.PRODUCTION`** |
-| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
 
 The API client can be initialized as follows:
 
@@ -118,20 +118,20 @@ APIMATICCalculatorClient client = new APIMATICCalculatorClient.Builder()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-request.md)
-* [HttpResponse](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-body-request.md)
-* [HttpCallback Interface](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-callback-interface.md)
-* [Headers](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/headers.md)
-* [ApiException](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/api-exception.md)
-* [Configuration Interface](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.0/doc/http-client-configuration-builder.md)
+* [Utility Classes](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-body-request.md)
+* [HttpCallback Interface](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-callback-interface.md)
+* [Headers](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/headers.md)
+* [ApiException](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/api-exception.md)
+* [Configuration Interface](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/raphael-mattos/calculadora-java-sdk/tree/1.0.1/doc/http-client-configuration-builder.md)
 
